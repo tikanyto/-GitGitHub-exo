@@ -23,4 +23,15 @@ class Convertisseur {
       aConvertir = sc.nextDouble();
       //Pensez à vider la ligne
       sc.nextLine();
+      //Selon le mode, on calcule différemment et on affiche le résultat
+      if(mode == '1'){
+        convertit = ((9.0/5.0) * aConvertir) + 32.0;
+        System.out.print(aConvertir + " °C correspond à : ");
+        System.out.println(arrondi(convertit, 2) + " °F.");
+      }
+      else{
+        convertit = ((aConvertir - 32) * 5) / 9;
+        System.out.print(aConvertir + " °F correspond à : ");
+        System.out.println(arrondi(convertit, 2) + " °C.");
+      }
 
