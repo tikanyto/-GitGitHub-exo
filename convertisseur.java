@@ -18,4 +18,9 @@ class Convertisseur {
 
       }while (mode != '1' && mode != '2');
 
+	       //saisie température à convertir
+      System.out.println("Température à convertir :");
+      aConvertir = sc.nextDouble();
+      // vider la ligne
+      sc.nextLine();
 
