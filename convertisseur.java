@@ -6,10 +6,16 @@ class Convertisseur {
     double aConvertir, convertit=0;
     char reponse=' ', mode = ' ';
 
-    System.out.println("CONVERTISSEUR DEGRÉS CELSIUS ET DEGRÉS FAHRENHEIT");
-    System.out.println("-------------------------------------------------");
-  
-    System.out.println("Choisissez le mode de conversion : ");
-    System.out.println("1 - Convertisseur Celsius - Fahrenheit");
-    System.out.println("2 - Convertisseur Fahrenheit - Celcius ");
+          do{//tant que reponse n'est pas O ou N
+        mode = ' ';
+        System.out.println("Choisissez le mode de conversion : ");
+        System.out.println("1 - Convertisseur Celsius - Fahrenheit");
+        System.out.println("2 - Convertisseur Fahrenheit - Celsius ");
+        mode = sc.nextLine().charAt(0);
+       
+        if(mode != '1' && mode != '2')
+          System.out.println("Mode inconnu, veuillez réitérer votre choix.");
+
+      }while (mode != '1' && mode != '2');
+
 
