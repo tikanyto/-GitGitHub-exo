@@ -11,4 +11,5 @@ class Convertisseur {
   
     System.out.println("Choisissez le mode de conversion : ");
     System.out.println("1 - Convertisseur Celsius - Fahrenheit");
-    System.out.println("2 - Convertisseur Fahrenheit - Kelvin ");    
+    System.out.println("2 - Convertisseur Fahrenheit - Celcius ");
+
