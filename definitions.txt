@@ -1,5 +1,3 @@
 degré Celsius : Unité de mesure de la température Celsius (symbole : °C). (C'est l'ancien degré centigrade
-degré Fahrenheit
-
-Intervalle unitaire de l'échelle de température Fahrenheit. (Il vaut 5s9 de degré Celsius.)
+degré Fahrenheit : (symbole : °F) est une unité de mesure de la température, proposée par le physicien allemand Daniel Gabriel Fahrenheit en 1724
 
